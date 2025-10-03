@@ -8,7 +8,11 @@ while true; do
     
     echo "Hello World demonio"
 
-    output = $(git -C /home/osobando/Documents/lab_servicios/demonio/PSO_LabService/ fetch origin Deploy --porcelain)
+    OUTPUT = "$(git -C /home/osobando/Documents/lab_servicios/demonio/PSO_LabService/ fetch origin Deploy --porcelain)"
+        
+    if [[ $OUTPUT == "*"* ]]; then
+        echo "pull"
+    fi
 
     sleep 1
 
