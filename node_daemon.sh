@@ -6,10 +6,11 @@ while true; do
     
     echo "Hello World demonio"
 
-    OUTPUT = "$(git -C ~/PSO_LabService/ fetch origin Deploy --porcelain)"
+    OUTPUT="$(git -C ~/PSO_LabService/ status)"
         
-    if [[ $OUTPUT == "*"* ]]; then
-        echo "pull"
+    if [[ $OUTPUT == *"pull"* ]]; then
+        git -C ~/PSO_LabService/ pull
+        # systemctl restart node.service
     fi
 
     sleep 1
