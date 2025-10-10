@@ -12,6 +12,6 @@ while true; do
         systemctl start node.service
     fi
 
-    sleep 5
+    sleep 300
 
 done
