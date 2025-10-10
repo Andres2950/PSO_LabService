@@ -3,7 +3,7 @@ import express from 'express'
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('Hello World Express')
+  res.send('Hello World Express BUENAS')
 })
 
 app.listen(3000)
