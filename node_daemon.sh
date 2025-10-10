@@ -6,9 +6,10 @@ while true; do
     
         
     if ! [[ $OUTPUT == *"="* ]]; then
+        systemctl stop node.service
         git -C ~/PSO_LabService/ checkout Deploy
         git -C ~/PSO_LabService/ pull
-        systemctl restart node.service
+        systemctl start node.service
     fi
 
     sleep 5
