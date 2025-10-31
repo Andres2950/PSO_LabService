@@ -2,6 +2,6 @@
 Laboratorio de sercios de PSO 
 
 
-# lab discos
+# lab depemnciedias
 
-https://docs.google.com/document/d/1ouK2WzMT61ikKfE3s6zLr3ms5Ca8yk4XbZL1khVYO3k/edit?usp=sharing
+https://docs.google.com/document/d/1a12tTge9tk0LUATUwzwNKEjIoB5q6Jw86fxCJsyxOmA/edit?tab=t.0
