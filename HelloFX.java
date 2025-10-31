@@ -26,7 +26,7 @@ public class HelloFX extends Application {
         TilePane tile_pane = new TilePane();
         tile_pane.getChildren().add(vbox);
 
-        Scene scene = new Scene(tile_pane, 100, 50);
+        Scene scene = new Scene(tile_pane, 3840, 2160);
         stage.setScene(scene);
         stage.show();
     }
